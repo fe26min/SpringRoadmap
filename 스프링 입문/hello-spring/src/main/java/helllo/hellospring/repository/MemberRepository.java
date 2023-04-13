@@ -2,7 +2,6 @@ package helllo.hellospring.repository;
 
 
 import helllo.hellospring.domain.Member;
-import org.springframework.stereotype.Repository;
 
 import java.util.List;
 import java.util.Optional;
