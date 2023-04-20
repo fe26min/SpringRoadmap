@@ -4,9 +4,6 @@ import hello.core.member.Grade;
 import hello.core.member.Member;
 import hello.core.member.MemberService;
 import hello.core.member.MemberServiceImpl;
-import hello.core.ordier.Order;
-import hello.core.ordier.OrderService;
-import hello.core.ordier.OrderServiceImpl;
 import org.assertj.core.api.Assertions;
 import org.junit.jupiter.api.Test;
 
