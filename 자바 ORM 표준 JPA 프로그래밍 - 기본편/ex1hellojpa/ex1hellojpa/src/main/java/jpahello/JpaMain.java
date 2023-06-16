@@ -15,11 +15,12 @@
             EntityTransaction tx = em.getTransaction();
             tx.begin();
             try {
-                Member member = new Member(200L, "member200");
-                em.persist(member);
+                // 영속 상태
+                Member member = em.find(Member.class, 150L);
+                member.setName("AAAAA");
 
-                em.flush();
-                System.out.println("-----------------");
+                em.clear();
+
                 tx.commit();
             } catch (Exception e) {
                 tx.rollback();
