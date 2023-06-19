@@ -5,15 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="464e3962-0fe7-47ce-9760-1a6c6fcf21de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/JpaMain.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Item.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Member.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/Order.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/OrderItem.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/java/jpabook/jpashop/domain/OrderStatus.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../jpashop/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Team.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.gitignore" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.mvn/wrapper/maven-wrapper.jar" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/.mvn/wrapper/maven-wrapper.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/mvnw" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/mvnw.cmd" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/java/jpa/basic/ex1hellojpa/Ex1HelloJpaApplication.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/main/resources/application.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../ex1-hello-jpa/src/test/java/jpa/basic/ex1hellojpa/Ex1HelloJpaApplicationTests.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/resources/META-INF/persistence.xml" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/resources/META-INF/persistence.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +30,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Class" />
         <option value="Enum" />
+        <option value="Class" />
       </list>
     </option>
   </component>
@@ -105,7 +112,7 @@
       <updated>1686905904620</updated>
       <workItem from="1686905905905" duration="6873000" />
       <workItem from="1686994403212" duration="3439000" />
-      <workItem from="1687161894140" duration="4653000" />
+      <workItem from="1687161894140" duration="5928000" />
     </task>
     <servers />
   </component>
