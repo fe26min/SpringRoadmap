@@ -5,7 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="464e3962-0fe7-47ce-9760-1a6c6fcf21de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Locker.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -52,6 +55,7 @@
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
     &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
     &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
     &quot;spring.configuration.checksum&quot;: &quot;ec9e5d12af4c3ef86f538632737c8457&quot;,
     &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
   }
@@ -100,7 +104,11 @@
       <workItem from="1686994403212" duration="3439000" />
       <workItem from="1687161894140" duration="7392000" />
       <workItem from="1687220068957" duration="3664000" />
-      <workItem from="1687825491357" duration="3411000" />
+      <workItem from="1687825491357" duration="3885000" />
+      <workItem from="1687929995005" duration="918000" />
+      <workItem from="1688343945671" duration="3728000" />
+      <workItem from="1688712134191" duration="507000" />
+      <workItem from="1688712656703" duration="2445000" />
     </task>
     <servers />
   </component>
