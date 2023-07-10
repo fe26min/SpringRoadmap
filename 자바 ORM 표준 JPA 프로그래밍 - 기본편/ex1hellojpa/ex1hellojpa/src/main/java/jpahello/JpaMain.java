@@ -15,19 +15,22 @@
             EntityTransaction tx = em.getTransaction();
             tx.begin();
             try {
-                Member member = new Member();
-                member.setUsername("member1");
 
-                em.persist(member);
+                Movie movie = new Movie();
+                movie.setDirector("a");
+                movie.setActor("bbbb");
+                movie.setName("바람과 함께 사라지다");
+                movie.setPrice(10000);
+                em.persist(movie);
 
-                Team team = new Team();
-                team.setName("teamA");
+                em.flush();
+                em.clear();
 
-                team.getMembers().add(member);
+                Movie findMovie = em.find(Movie.class, movie.getId());
+                System.out.println("findMovie : " + findMovie);
 
-                em.persist(team);
 
-                tx.commit();
+               tx.commit();
             } catch (Exception e) {
                 tx.rollback();
             } finally {
