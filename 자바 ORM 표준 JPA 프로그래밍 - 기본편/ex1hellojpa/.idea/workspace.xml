@@ -5,11 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="464e3962-0fe7-47ce-9760-1a6c6fcf21de" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Locker.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/MemberProduct.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Product.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Team.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Team.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +107,8 @@
       <workItem from="1687929995005" duration="918000" />
       <workItem from="1688343945671" duration="3728000" />
       <workItem from="1688712134191" duration="507000" />
-      <workItem from="1688712656703" duration="2445000" />
+      <workItem from="1688712656703" duration="3032000" />
+      <workItem from="1688980826550" duration="832000" />
     </task>
     <servers />
   </component>
