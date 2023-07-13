@@ -7,7 +7,6 @@
     <list default="true" id="464e3962-0fe7-47ce-9760-1a6c6fcf21de" name="Changes" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Locker.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -109,7 +108,8 @@
       <workItem from="1688712134191" duration="507000" />
       <workItem from="1688712656703" duration="3032000" />
       <workItem from="1688980826550" duration="4829000" />
-      <workItem from="1689122205085" duration="4018000" />
+      <workItem from="1689122205085" duration="5244000" />
+      <workItem from="1689207792658" duration="3086000" />
     </task>
     <servers />
   </component>
