@@ -14,12 +14,14 @@
             EntityTransaction tx = em.getTransaction();
             tx.begin();
             try {
+               Address address =  new Address("city", "street", "10000");
+                Member member1  = new Member();
+                member1.setUsername("member1");
+                member1.setHomeAddress(address);
+                em.persist(member1);
 
-                Member member  = new Member();
-                member.setUsername("hello");
-                member.setHomeAddress(new Address("city", "street", "10000"));
-                member.setWorkPeriod(new Period());
-                em.persist(member);
+                Address newAddress = new Address("NewCity", address.getStreet(), address.getZipcode());
+                member1.setHomeAddress(newAddress);
 
                 tx.commit();
             } catch (Exception e) {
