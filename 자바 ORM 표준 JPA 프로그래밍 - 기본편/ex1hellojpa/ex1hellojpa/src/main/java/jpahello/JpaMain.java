@@ -5,6 +5,7 @@
 
     import java.time.LocalDateTime;
     import java.util.List;
+    import java.util.Set;
 
     public class JpaMain {
         public static void main(String[] args) {
@@ -14,14 +15,35 @@
             EntityTransaction tx = em.getTransaction();
             tx.begin();
             try {
-               Address address =  new Address("city", "street", "10000");
-                Member member1  = new Member();
-                member1.setUsername("member1");
-                member1.setHomeAddress(address);
-                em.persist(member1);
 
-                Address newAddress = new Address("NewCity", address.getStreet(), address.getZipcode());
-                member1.setHomeAddress(newAddress);
+                Member member = new Member();
+                member.setUsername("member1");
+                member.setHomeAddress(new Address("HomeCity", "street", "100000"));
+
+                member.getFavoriteFoods().add("치킨");
+                member.getFavoriteFoods().add("족발");
+                member.getFavoriteFoods().add("피자");
+
+                member.getAddressHistory().add(new AddressEntity("old1", "street", "11111"));
+                member.getAddressHistory().add(new AddressEntity("old2", "street", "11111"));
+
+                em.persist(member);
+
+                em.flush();
+                em.clear();
+
+                System.out.println("================ START ====================");
+                Member findMember = em.find(Member.class, member.getId());
+
+                Address a = findMember.getHomeAddress();
+                findMember.setHomeAddress(new Address("newCity", a.getStreet(), a.getZipcode()));
+
+                findMember.getFavoriteFoods().remove("치킨");
+                findMember.getFavoriteFoods().add("한식");
+
+//                findMember.getAddressHistory().remove(new AddressEntity("old1", "street", "11111"));
+//                findMember.getAddressHistory().add(new AddressEntity("newCity1", "street", "11111"));
+
 
                 tx.commit();
             } catch (Exception e) {
@@ -32,5 +54,4 @@
             }
             emf.close();
         }
-
     }

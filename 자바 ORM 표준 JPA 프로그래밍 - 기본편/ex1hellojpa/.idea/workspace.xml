@@ -5,9 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="464e3962-0fe7-47ce-9760-1a6c6fcf21de" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/AddressEntity.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Address.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Address.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/ValueMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/ValueMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/JpaMain.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" beforeDir="false" afterPath="$PROJECT_DIR$/ex1hellojpa/src/main/java/jpahello/Member.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +64,7 @@
       <recent name="jpahello" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.ValueMain">
+  <component name="RunManager" selected="Application.JpaMain">
     <configuration name="JpaMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="jpahello.JpaMain" />
       <module name="ex1hellojpa" />
@@ -99,8 +100,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.ValueMain" />
         <item itemvalue="Application.JpaMain" />
+        <item itemvalue="Application.ValueMain" />
       </list>
     </recent_temporary>
   </component>
@@ -124,7 +125,7 @@
       <workItem from="1688980826550" duration="4829000" />
       <workItem from="1689122205085" duration="5244000" />
       <workItem from="1689207792658" duration="6947000" />
-      <workItem from="1689227142002" duration="5404000" />
+      <workItem from="1689227142002" duration="10827000" />
     </task>
     <servers />
   </component>
